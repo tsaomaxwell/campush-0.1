@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=CampushOnePointZero
+comment0.text=\n\ A\ Class\ designed\ to\ create\ a\ series\ of\ dialog\ prompts\ that\ help\ filter\ down\ UCLA\ \n\ clubs\ into\ a\ shortened\ list\ that\ is\ usable\ for\ club\ searching\ to\ students\n\ \n\ @author\ \ \ \ \ \ Maxwell\ Tsao\n\ @footnote\ \ \ \ assitance\ from\ Lucas\ Jeong\n\ @version\ \ \ \ \ 0.1\n\ @date\ \ \ \ \ \ \ \ 8/5/20\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ runs\ the\ main\ prompts\ to\ do\ the\ club\ recommendations\n
+comment2.params=last
+comment2.target=void\ fill(java.util.List)
+comment2.text=\n\ loads\ the\ final\ display\n
+comment3.params=current\ match\ column
+comment3.target=java.util.List\ trim(java.util.List,\ java.lang.String,\ int)
+comment3.text=\n\ removes\ all\ clubs\ that\ do\ not\ contain\ the\ proper\ keyword\ within\ a\ certain\ column\n
+comment4.params=filename
+comment4.target=java.util.List\ readData(java.lang.String)
+comment4.text=\n\ reads\ the\ csv\ file\ and\ returns\ it\ as\ a\ list\ of\ string\ lists\n
+comment5.params=path
+comment5.target=java.util.List\ readData(java.nio.file.Path)
+comment5.text=\n\ reads\ the\ csv\ file\ and\ returns\ it\ as\ a\ list\ of\ string\ lists\n
+numComments=6
